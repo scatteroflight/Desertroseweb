@@ -7,17 +7,8 @@
   
 }
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-
-
-
-  
-}
-
 .card-body {
-background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+background-color: #fceee0;
   border: 3px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,34 +43,40 @@ button {
     background-color: #d3bdec;
     border: #d3bdec;
 }
+      ul {
+        background: #FCEEE0;
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-width: 1px 0;
+        text-align: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
 
-.navigation {
-  background: #f2e7ea;
-  border-bottom: 2px solid #d6c2c8;
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 1rem;
-}
 
-.navigation ul {
-  margin: 0;
-  padding: 0;
-}
+     li {
+        margin: 0;
+        padding: 0;
+      }
 
-.navigation ul li {
-  display: inline;
-  padding-right: 0.5rem;
-  
-}
+    ul li {
+        display: inline;
+        padding-right: 0.5rem;
 
-.navigation a {
-  color: #d6c2c8;
-}
+      }
 
-.navigation a:hover {
-  color: black;
-  text-decoration: underline;
-}
+      a {
+          display: inline;
+          padding: 10px;
+        color: #B19647;
+      }
+
+
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
 
 
 
