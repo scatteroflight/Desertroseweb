@@ -1,0 +1,169 @@
+ html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+
+
+  
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+
+
+  
+}
+
+.card-body {
+background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  border: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 1.5rem 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+text-align: center;
+  margin: 0.75rem 1rem;
+  padding: 5px;
+ color: #6d6064;
+}
+
+
+p {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  text-align: center;
+  border-bottom: 2px solid #d6c2c8;
+  padding: 5px;
+  margin: 0.5rem 1rem;
+    color: #6d6064;
+
+}
+
+
+button {
+    background-color: #d3bdec;
+    border: #d3bdec;
+}
+
+.navigation {
+  background: #f2e7ea;
+  border-bottom: 2px solid #d6c2c8;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  padding-right: 0.5rem;
+  
+}
+
+.navigation a {
+  color: #d6c2c8;
+}
+
+.navigation a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+/* form */
+
+.btn{
+    background: 0 0 #d1c8e6;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color:var(--font-color);
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+
+/* PHONE */
+
+@media only screen and (max-width: 500px) {
+  .website-name {
+    margin-left: 2rem;
+  }
+
+  .navbar-links-icons {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .marker {
+    margin-top: -0.33rem;
+    margin-left: -0.25rem;
+    height: 1rem;
+    width: 1rem;
+    background: url(../img/map-marker-alt-solid.svg) 49% / 60% no-repeat;
+  }
+
+  .contact-page-title {
+    padding-top: 7rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  .send-msg {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .contact-options {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
