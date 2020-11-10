@@ -1,11 +1,8 @@
- html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  background-color: #FCEEE0;
 
+body{
 
+background-color: #FCEEE0;
 
-  
 }
 
 .card-body {
@@ -14,11 +11,6 @@ background-color: #FCEEE0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  padding: 1.5rem 0;
-  margin: 0 auto;
- background-color: #FCEEE0;
-}
 
 h1 {
   font-size: 2rem;
@@ -33,18 +25,13 @@ p {
   font-size: 1rem;
   padding: 0.25rem 0;
   text-align: center;
-  border-bottom: 2px solid #d6c2c8;
+  border-bottom: 2px solid #FCEEE0;
   padding: 5px;
   margin: 0.5rem 1rem;
     color: #6d6064;
 
 }
 
-
-button {
-    background-color: #d3bdec;
-    border: #d3bdec;
-}
       ul {
         background: #FCEEE0;
         font-size: 1.2rem;
@@ -80,26 +67,15 @@ button {
         text-decoration: underline;
       }
 
-
-
-
-* {
-  box-sizing: border-box;
-}
-
 /* Add a gray background color with some padding */
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
-}
+
 /* form */
 
 .btn{
-    background: 0 0 #d1c8e6;
+    background: 0 0 #FCEEE0;
+    color:#B19647;
     border:1px solid #aaa;
     border-radius:3px;
-    color:var(--font-color);
     font-size:1em;
     padding:10 50px;
     text-transform:uppercase;
@@ -107,6 +83,9 @@ body {
 .btn:hover{
     border-color:var(--font-hover-color);
     color:var(--font-hover-color);
+    color: black;
+    text-decoration: underline;
+}
 
 /* PHONE */
 
@@ -164,5 +143,5 @@ body {
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: #FCEEE0;;
 }
