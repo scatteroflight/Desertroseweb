@@ -1,95 +1,90 @@
-
-body{
-
-background-color: #FCEEE0;
-
+body {
+  background-color: #fceee0;
 }
 
 .container {
-  background-color: #FCEEE0;
+  background-color: #fceee0;
   border: 3px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-body {
-background-color: #FCEEE0;
+  background-color: #fceee0;
   border: 3px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+form {
+  background-color: #fceee0;
+}
 
 h1 {
   font-size: 2rem;
-text-align: center;
+  text-align: center;
   margin: 0.75rem 1rem;
   padding: 5px;
- color: #6d6064;
+  color: #6d6064;
 }
-
 
 p {
   font-size: 1rem;
   padding: 0.25rem 0;
   text-align: center;
-  border-bottom: 2px solid #FCEEE0;
+  border-bottom: 2px solid #fceee0;
   padding: 5px;
   margin: 0.5rem 1rem;
-    color: #6d6064;
-
+  color: #6d6064;
 }
 
-      ul {
-        background: #FCEEE0;
-        color: #B19647;
-        font-size: 1.2rem;
-        padding: 1rem;
-        border-width: 1px 0;
-        text-align: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
+ul {
+  background: #fceee0;
+  color: #b19647;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-width: 1px 0;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  margin: 0;
+  padding: 0;
+}
 
-     li {
-        margin: 0;
-        padding: 0;
-      }
+ul li {
+  display: inline;
+  padding-right: 0.5rem;
+}
 
-    ul li {
-        display: inline;
-        padding-right: 0.5rem;
+a {
+  display: inline;
+  padding: 10px;
+  color: #b19647;
+}
 
-      }
-
-      a {
-          display: inline;
-          padding: 10px;
-        color: #B19647;
-      }
-
-
-      a:hover {
-        color: black;
-        text-decoration: underline;
-      }
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
 
 /* Add a gray background color with some padding */
 
 /* form */
 
-.btn{
-    background: 0 0 #FCEEE0;
-    color:#B19647;
-    border:1px solid #aaa;
-    border-radius:3px;
-    font-size:1em;
-    padding:10 50px;
-    text-transform:uppercase;
+.btn {
+  background: 0 0 #fceee0;
+  color: #b19647;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 1em;
+  padding: 10 50px;
+  text-transform: uppercase;
 }
-.btn:hover{
-    border-color:var(--font-hover-color);
-    color:var(--font-hover-color);
-    color: black;
-    text-decoration: underline;
+.btn:hover {
+  border-color: var(--font-hover-color);
+  color: var(--font-hover-color);
+  color: black;
+  text-decoration: underline;
 }
