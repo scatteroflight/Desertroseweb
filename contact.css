@@ -1,148 +1,75 @@
-body {
-  background-color: #fceee0;
+    html, body
+      {
+          height:100%;
+          margin:0;
+          padding:0;
+          background-color: #FCEEE0;
+
+      }
+
+     div {
+          position:relative;
+          height: 75%;
+          width: 100%;
+      }
+    
+
+      img {
+          display: inline-block;
+          position: absolute;
+          margin: auto;
+
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+p{ 
+
+text-align: center;
 }
 
-.container {
-  background-color: #fceee0;
-  border: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.card-body {
-  background-color: #fceee0;
-  border: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-form {
-  background-color: #fceee0;
-}
-
-h1 {
-  font-size: 2rem;
-  text-align: center;
-  margin: 0.75rem 1rem;
-  padding: 5px;
-  color: #6d6064;
-}
-
-image{
-  position: inline-block:
-}
-
-p {
-  font-size: 1rem;
-  padding: 0.25rem 0;
-  text-align: center;
-  border-bottom: 2px solid #fceee0;
-  padding: 5px;
-  margin: 0.5rem 1rem;
-  color: #6d6064;
-}
-
-ul {
-  background: #fceee0;
-  color: #b19647;
-  font-size: 1.2rem;
-  padding: 1rem;
-  border-width: 1px 0;
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  display: inline;
-  padding-right: 0.5rem;
-}
-
-a {
-  display: inline;
-  padding: 10px;
-  color: #b19647;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-/* Add a gray background color with some padding */
-
-/* form */
+      ul {
+        background: #FCEEE0;
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-width: 1px 0;
+        text-align: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
 
 
-/* Style inputs, select elements and textareas */
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-}
+     li {
+        margin: 0;
+        padding: 0;
+      }
 
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
+    ul li {
+        display: inline;
+        padding-right: 0.5rem;
 
-/* Style the submit button */
-input[type="submit"] {
-  background-color: #fceee0;
-  color: #b19647;
-  padding: 12px 20px;
-  cursor: pointer;
-  float: right;
-}
+      }
 
-input[type="submit"]:hover {
-  background-color: #f8efe6;
-  color: #9c843c;
-  border-color: black
-  padding: 12px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
+    .submit {
+        display: inline;
+        text-align: center;
+        color: #B19647;
+        background-color: #FCEEE0;
 
-/* Style the container */
-/* Floating column for labels: 25% width */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
+    }
 
-/* Floating column for inputs: 75% width */
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
+      a {
+          display: inline;
+          padding: 10px;
+        color: #B19647;
+      }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
