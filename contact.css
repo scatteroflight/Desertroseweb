@@ -1,37 +1,33 @@
-  html, body
-      {
-          height:100%;
-          margin:0;
-          padding:0;
-          background-color: #FCEEE0;
+body{
 
-      }
+background-color: #FCEEE0;
 
-     div {
-          position:relative;
-          height: 75%;
-          width: 100%;
-      }
-    
-
-      img {
-          display: inline-block;
-          position: absolute;
-          margin: auto;
-
-      }
-
-      h1 {
-        text-align: center;
-      }
-
-p{ 
-
-text-align: center;
 }
 
-input {
-  width: 75%;
+.card-body {
+background-color: #FCEEE0;
+  border: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 2rem;
+text-align: center;
+  margin: 0.75rem 1rem;
+  padding: 5px;
+ color: #6d6064;
+}
+
+
+p {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  text-align: center;
+  border-bottom: 2px solid #FCEEE0;
+  padding: 5px;
+  margin: 0.5rem 1rem;
+    color: #6d6064;
 
 }
 
@@ -58,14 +54,6 @@ input {
 
       }
 
-    .submit {
-        display: inline;
-        text-align: center;
-        color: #B19647;
-        background-color: #FCEEE0;
-
-    }
-
       a {
           display: inline;
           padding: 10px;
@@ -77,67 +65,82 @@ input {
         color: black;
         text-decoration: underline;
       }
-      * {
+
+/* Add a gray background color with some padding */
+
+/* form */
+
+.btn{
+    background: 0 0 #FCEEE0;
+    color:#B19647;
+    border:1px solid #aaa;
+    border-radius:3px;
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+    color: black;
+    text-decoration: underline;
+}
+
+/* PHONE */
+
+@media only screen and (max-width: 500px) {
+  .website-name {
+    margin-left: 2rem;
+  }
+
+  .navbar-links-icons {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .marker {
+    margin-top: -0.33rem;
+    margin-left: -0.25rem;
+    height: 1rem;
+    width: 1rem;
+    background: url(../img/map-marker-alt-solid.svg) 49% / 60% no-repeat;
+  }
+
+  .contact-page-title {
+    padding-top: 7rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  .send-msg {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .contact-options {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+* {
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #FCEEE0;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #FCEEE0;
-  color: #B19647;
-  padding: 12px 12px;
-  border: none;
-  cursor: pointer;
-  position: center;
-}
-
-input[type=submit]:hover {
-  background-color: #FCEEE0;
-  border: solid black;
-  border-radius: 1rem;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #FCEEE0;
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
   padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+  background: #FCEEE0;;
 }
